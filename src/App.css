@@ -1,3 +1,18 @@
 .container {
-  margin-top: 50px;
+  margin: 50px 20px;
+}
+
+h1,
+form {
+  text-align: center;
+}
+
+footer {
+  font-size: small;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.Results {
+  text-align: left;
 }
