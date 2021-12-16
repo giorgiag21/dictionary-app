@@ -1,3 +1,7 @@
+body {
+  background-color: #bae5d5;
+}
+
 .container {
   margin: 50px 20px;
 }
@@ -11,6 +15,16 @@ footer {
   font-size: small;
   margin: 30px 20px;
   text-align: center;
+}
+
+.search-bar,
+.headword,
+.meanings {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .Results {
