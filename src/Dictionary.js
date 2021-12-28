@@ -23,7 +23,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <div className="search-bar">
-        <h2>What word do you want to look up?</h2>
+        <h2 className="mb-3">What word do you want to look up?</h2>
         <form onSubmit={search}>
           <input type="search" onChange={updateHeadword} />
         </form>

@@ -2,10 +2,6 @@ body {
   background-color: #bae5d5;
 }
 
-.container {
-  margin: 50px 20px;
-}
-
 h1,
 form {
   text-align: center;
@@ -15,6 +11,17 @@ footer {
   font-size: small;
   margin: 30px 20px;
   text-align: center;
+}
+
+.search-bar h2 {
+  text-align: center;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
 }
 
 .search-bar,
@@ -27,6 +34,19 @@ footer {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.Results {
-  text-align: left;
+.Phonetic a {
+  color: #72e2b9;
+}
+
+.Phonetic a:hover {
+  color: #72e2b993;
+}
+
+.Meaning .example {
+  color: gray;
+  font-style: italic;
+}
+
+.Synonyms span {
+  padding: 0 8px 0 0;
 }
